@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Platform — keenwiix</title>
+    <meta name="description" content="Concept e-commerce — Product detail page." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="ecommerce.css" />
+</head>
+<body>
+
+    <header class="eco-header">
+        <div class="eco-nav">
+            <a href="#" class="eco-logo">ATELIER</a>
+            <nav class="eco-links">
+                <a href="#" class="active">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Accessories</a>
+                <a href="#">New In</a>
+            </nav>
+            <div class="eco-actions">
+                <button class="icon-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+                <button class="icon-btn" aria-label="Cart">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">2</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="eco-main">
+        <div class="eco-product">
+            <div class="product-gallery">
+                <div class="gallery-thumbs">
+                    <button class="thumb active"><div class="thumb-img"></div></button>
+                    <button class="thumb"><div class="thumb-img"></div></button>
+                    <button class="thumb"><div class="thumb-img"></div></button>
+                    <button class="thumb"><div class="thumb-img"></div></button>
+                </div>
+                <div class="gallery-main">
+                    <div class="product-image">
+                        <div class="product-label">New Season</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-info">
+                <span class="product-category">Wool Collection</span>
+                <h1 class="product-title">Merino Wool Turtleneck</h1>
+                <p class="product-price">$189</p>
+
+                <p class="product-desc">
+                    Crafted from 100% fine merino wool. A timeless silhouette designed for both warmth and elegance. Ethically sourced, made in Portugal.
+                </p>
+
+                <div class="product-option">
+                    <span class="option-label">Color</span>
+                    <div class="color-options">
+                        <button class="color-dot active" style="background: #1A1A1A"></button>
+                        <button class="color-dot" style="background: #D4C5B0"></button>
+                        <button class="color-dot" style="background: #4A5D4A"></button>
+                        <button class="color-dot" style="background: #7A3E3E"></button>
+                    </div>
+                </div>
+
+                <div class="product-option">
+                    <span class="option-label">Size</span>
+                    <div class="size-options">
+                        <button class="size-btn">XS</button>
+                        <button class="size-btn active">S</button>
+                        <button class="size-btn">M</button>
+                        <button class="size-btn">L</button>
+                        <button class="size-btn">XL</button>
+                    </div>
+                </div>
+
+                <div class="product-actions">
+                    <button class="add-cart-btn">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span>Add to cart</span>
+                    </button>
+                    <button class="wishlist-btn" aria-label="Wishlist">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+
+                <div class="product-meta">
+                    <div class="meta-item">
+                        <i class="fas fa-truck"></i>
+                        <span>Free shipping over $150</span>
+                    </div>
+                    <div class="meta-item">
+                        <i class="fas fa-undo"></i>
+                        <span>30-day returns</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <a href="../../work-detail-ecommerce.html" class="back-btn">
+        <i class="fas fa-arrow-left"></i>
+        <span>Back to case study</span>
+    </a>
+
+    <script src="ecommerce.js"></script>
+</body>
+</html>

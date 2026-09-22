@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health & Wellness App — keenwiix</title>
+    <meta name="description" content="Concept health app — Home screen." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="health.css" />
+</head>
+<body>
+
+    <div class="phone-wrap">
+        <div class="phone">
+
+            <div class="status-bar">
+                <span class="time">9:41</span>
+                <div class="status-icons">
+                    <i class="fas fa-signal"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-battery-full"></i>
+                </div>
+            </div>
+
+            <header class="app-header">
+                <div class="user-greeting">
+                    <span class="greeting-small">Welcome back</span>
+                    <h1 class="user-name">Good morning</h1>
+                </div>
+                <button class="avatar-btn" aria-label="Profile">
+                    <i class="fas fa-user"></i>
+                </button>
+            </header>
+
+            <section class="mood-card">
+                <div class="mood-header">
+                    <h2>How are you feeling?</h2>
+                    <span class="mood-date">Today</span>
+                </div>
+                <div class="mood-options">
+                    <button class="mood-btn" aria-label="Great">
+                        <span class="mood-emoji">😄</span>
+                        <span class="mood-label">Great</span>
+                    </button>
+                    <button class="mood-btn active" aria-label="Good">
+                        <span class="mood-emoji">🙂</span>
+                        <span class="mood-label">Good</span>
+                    </button>
+                    <button class="mood-btn" aria-label="Okay">
+                        <span class="mood-emoji">😐</span>
+                        <span class="mood-label">Okay</span>
+                    </button>
+                    <button class="mood-btn" aria-label="Bad">
+                        <span class="mood-emoji">😔</span>
+                        <span class="mood-label">Bad</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="activity-section">
+                <div class="section-title-row">
+                    <h2>Today's Activity</h2>
+                    <a href="#" class="see-all">Details</a>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-ring">
+                        <svg viewBox="0 0 100 100">
+                            <circle class="ring-bg" cx="50" cy="50" r="42"></circle>
+                            <circle class="ring-progress ring-1" cx="50" cy="50" r="42"></circle>
+                            <circle class="ring-bg" cx="50" cy="50" r="34"></circle>
+                            <circle class="ring-progress ring-2" cx="50" cy="50" r="34"></circle>
+                            <circle class="ring-bg" cx="50" cy="50" r="26"></circle>
+                            <circle class="ring-progress ring-3" cx="50" cy="50" r="26"></circle>
+                        </svg>
+                        <div class="ring-center">
+                            <span class="ring-value">78%</span>
+                            <span class="ring-label">Done</span>
+                        </div>
+                    </div>
+
+                    <div class="activity-stats">
+                        <div class="activity-stat">
+                            <div class="stat-dot dot-1"></div>
+                            <div>
+                                <span class="stat-name">Steps</span>
+                                <span class="stat-value">8,420</span>
+                            </div>
+                        </div>
+                        <div class="activity-stat">
+                            <div class="stat-dot dot-2"></div>
+                            <div>
+                                <span class="stat-name">Calories</span>
+                                <span class="stat-value">540 kcal</span>
+                            </div>
+                        </div>
+                        <div class="activity-stat">
+                            <div class="stat-dot dot-3"></div>
+                            <div>
+                                <span class="stat-name">Water</span>
+                                <span class="stat-value">1.8 L</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="meditation-section">
+                <div class="meditation-card">
+                    <div class="meditation-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <div class="meditation-content">
+                        <span class="meditation-label">Recommended</span>
+                        <h3>Evening Meditation</h3>
+                        <p>10 min · Relaxation</p>
+                    </div>
+                    <button class="play-btn" aria-label="Play">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+            </section>
+
+            <nav class="bottom-nav" aria-label="App navigation">
+                <button class="nav-btn active" aria-label="Home"><i class="fas fa-home"></i></button>
+                <button class="nav-btn" aria-label="Activity"><i class="fas fa-heartbeat"></i></button>
+                <button class="nav-btn" aria-label="Meditate"><i class="fas fa-spa"></i></button>
+                <button class="nav-btn" aria-label="Profile"><i class="fas fa-user"></i></button>
+            </nav>
+
+        </div>
+    </div>
+
+    <!-- ⚠️ ИСПРАВЛЕНО: ведёт на health case -->
+    <a href="../../work-detail-health.html" class="back-btn">
+        <i class="fas fa-arrow-left"></i>
+        <span>Back to case study</span>
+    </a>
+
+    <script src="health.js"></script>
+</body>
+</html>

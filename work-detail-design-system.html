@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design System — keenwiix</title>
+    <meta name="description" content="Case study: Design System — scalable components library." />
+    <link rel="canonical" href="https://qmakii.github.io/kenwix/work-detail-design-system.html" />
+    <meta property="og:title" content="Design System — keenwiix" />
+    <meta property="og:description" content="Case study: Design System — scalable components library." />
+    <meta property="og:type" content="article" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="work.css" />
+</head>
+<body>
+
+    <header class="site-header" role="banner">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="Homepage"><span class="keenwiix-logo">keenwiix</span></a>
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="work.html" role="menuitem" class="active">Work</a></li>
+                <li role="none"><a href="about.html" role="menuitem">About</a></li>
+                <li role="none"><a href="index.html#expertise" role="menuitem">Expertise</a></li>
+                <li role="none"><a href="index.html#journey" role="menuitem">Journey</a></li>
+                <li role="none"><a href="contact.html" role="menuitem" class="nav-cta">Available for work</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <div class="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="index.html#expertise">Expertise</a>
+        <a href="index.html#journey">Journey</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <main>
+        <section class="case-study-hero" aria-label="Case study hero">
+            <div class="case-study-hero-content">
+                <div class="case-study-meta">
+                    <span class="case-study-category">Design · System</span>
+                    <span class="case-study-year">2024</span>
+                </div>
+                <h1 class="case-study-title">Design System</h1>
+                <p class="case-study-subtitle">
+                    A scalable design system with reusable components, tokens, and patterns — built for consistency across enterprise applications.
+                </p>
+                <div class="case-study-tags">
+                    <span>Design Tokens</span>
+                    <span>Components</span>
+                    <span>Documentation</span>
+                    <span>Figma</span>
+                </div>
+                <a href="projects/design-system/index.html" target="_blank" rel="noopener" class="case-study-live-btn">
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>View live demo</span>
+                </a>
+            </div>
+            <div class="case-study-hero-image">
+                <img src="images/projects/project-4.jpg" alt="Design System" loading="lazy" />
+            </div>
+        </section>
+
+        <section class="case-study-content" aria-label="Case study details">
+            <div class="case-study-grid">
+                <aside class="case-study-sidebar" aria-label="Table of contents">
+                    <div class="sidebar-sticky">
+                        <h4>Contents</h4>
+                        <nav class="sidebar-nav">
+                            <a href="#overview" class="active">Overview</a>
+                            <a href="#problem">Problem</a>
+                            <a href="#research">Research</a>
+                            <a href="#process">Process</a>
+                            <a href="#solution">Solution</a>
+                            <a href="#result">Result</a>
+                        </nav>
+                    </div>
+                </aside>
+
+                <div class="case-study-main">
+                    <section id="overview" class="case-study-section">
+                        <h2>Project Overview</h2>
+                        <p>
+                            A comprehensive design system built to unify the visual language across multiple products within an enterprise. The system includes design tokens, reusable components, and documentation to help teams build faster and more consistently.
+                        </p>
+                        <div class="case-study-info">
+                            <div class="info-item"><span class="info-label">Role</span><span class="info-value">Design System Designer</span></div>
+                            <div class="info-item"><span class="info-label">Duration</span><span class="info-value">16 weeks</span></div>
+                            <div class="info-item"><span class="info-label">Team</span><span class="info-value">6 people</span></div>
+                            <div class="info-item"><span class="info-label">Tools</span><span class="info-value">Figma, Storybook, Style Dictionary</span></div>
+                        </div>
+                        <div class="case-study-stats">
+                            <div class="stat-item"><span class="stat-number">80+</span><span class="stat-label">Components</span></div>
+                            <div class="stat-item"><span class="stat-number">16</span><span class="stat-label">Weeks</span></div>
+                            <div class="stat-item"><span class="stat-number">60%</span><span class="stat-label">Faster Build</span></div>
+                            <div class="stat-item"><span class="stat-number">3</span><span class="stat-label">Products Unified</span></div>
+                        </div>
+                    </section>
+
+                    <section id="problem" class="case-study-section">
+                        <h2>Problem</h2>
+                        <p>Multiple product teams were building inconsistent interfaces. There was no shared source of truth for colors, typography, spacing, or components — causing duplication and inconsistency.</p>
+                        <ul class="problem-list">
+                            <li>Inconsistent UI across products</li>
+                            <li>Designers re-inventing the same components</li>
+                            <li>Developers hardcoding values</li>
+                            <li>Slow onboarding for new team members</li>
+                        </ul>
+                    </section>
+
+                    <section id="research" class="case-study-section">
+                        <h2>Research &amp; Discovery</h2>
+                        <p>I audited existing interfaces, interviewed designers and developers, and analyzed industry-standard design systems like Material Design, Polaris, and Carbon.</p>
+                        <div class="research-methods">
+                            <div class="method-item"><i class="fas fa-search"></i><h4>UI Audit</h4><p>Analyzed 200+ screens across 3 products</p></div>
+                            <div class="method-item"><i class="fas fa-users"></i><h4>Team Interviews</h4><p>12 designers and 8 developers</p></div>
+                            <div class="method-item"><i class="fas fa-book"></i><h4>Benchmark</h4><p>Studied Material, Polaris, Carbon</p></div>
+                            <div class="method-item"><i class="fas fa-tachometer-alt"></i><h4>Impact Analysis</h4><p>Measured time lost to inconsistency</p></div>
+                        </div>
+                        <div class="key-insights">
+                            <h4>Key Insights</h4>
+                            <ul>
+                                <li>Teams wanted speed above all else</li>
+                                <li>Documentation is as important as components</li>
+                                <li>Tokens must sync between design and code</li>
+                                <li>Adoption requires internal marketing</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section id="process" class="case-study-section">
+                        <h2>Design Process</h2>
+                        <div class="process-steps">
+                            <div class="step"><span class="step-number">01</span><div class="step-content"><h4>Audit &amp; Foundation</h4><p>Catalogued existing patterns, defined core tokens (color, type, spacing).</p></div></div>
+                            <div class="step"><span class="step-number">02</span><div class="step-content"><h4>Component Design</h4><p>Designed 80+ reusable components in Figma with variants.</p></div></div>
+                            <div class="step"><span class="step-number">03</span><div class="step-content"><h4>Code Implementation</h4><p>Built components in Storybook, synced tokens via Style Dictionary.</p></div></div>
+                            <div class="step"><span class="step-number">04</span><div class="step-content"><h4>Documentation</h4><p>Wrote usage guidelines, do's and don'ts, accessibility notes.</p></div></div>
+                            <div class="step"><span class="step-number">05</span><div class="step-content"><h4>Rollout &amp; Support</h4><p>Onboarded teams, set up weekly office hours, iterated based on feedback.</p></div></div>
+                        </div>
+                    </section>
+
+                    <section id="solution" class="case-study-section">
+                        <h2>Solution</h2>
+                        <p>A living design system with tokens, components, and documentation — used by 3 product teams across the company.</p>
+                        <div class="solution-grid">
+                            <div class="solution-item"><i class="fas fa-palette"></i><h4>Design Tokens</h4><p>Color, typography, spacing — synced between Figma and code</p></div>
+                            <div class="solution-item"><i class="fas fa-puzzle-piece"></i><h4>80+ Components</h4><p>Buttons, inputs, cards, modals, and more</p></div>
+                            <div class="solution-item"><i class="fas fa-book-open"></i><h4>Documentation</h4><p>Clear usage guidelines and examples</p></div>
+                            <div class="solution-item"><i class="fas fa-code"></i><h4>Storybook</h4><p>Live component playground for developers</p></div>
+                        </div>
+                    </section>
+
+                    <section id="result" class="case-study-section">
+                        <h2>Results &amp; Impact</h2>
+                        <div class="results-grid">
+                            <div class="result-item"><span class="result-number">60%</span><span class="result-label">Faster Build Time</span></div>
+                            <div class="result-item"><span class="result-number">80+</span><span class="result-label">Components</span></div>
+                            <div class="result-item"><span class="result-number">3</span><span class="result-label">Products Unified</span></div>
+                            <div class="result-item"><span class="result-number">100%</span><span class="result-label">Team Adoption</span></div>
+                        </div>
+                        <div class="testimonial">
+                            <blockquote>"This system completely changed how we ship products. What used to take weeks now takes days."</blockquote>
+                            <cite>— David K., Engineering Lead</cite>
+                        </div>
+                        <div class="lessons-learned">
+                            <h4>Lessons Learned</h4>
+                            <ul>
+                                <li>A design system is a product, not a project</li>
+                                <li>Adoption requires constant communication</li>
+                                <li>Tokens must live in both design and code</li>
+                                <li>Documentation is what makes it stick</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <div class="case-study-navigation">
+                        <a href="work-detail-ecommerce.html" class="nav-prev">
+                            <i class="fas fa-arrow-left"></i><span>E-Commerce Platform</span>
+                        </a>
+                        <a href="work-detail-portfolio.html" class="nav-next">
+                            <span>Portfolio Website</span><i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo"><p>&copy; 2026 keenwiix. Crafted with purpose.</p></footer>
+    <button class="scroll-progress" aria-label="Scroll to top">0%</button>
+
+    <script src="navigation.js"></script>
+    <script src="animations.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

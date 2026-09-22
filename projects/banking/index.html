@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Banking Platform — keenwiix</title>
+    <meta name="description" content="Concept banking app — Dashboard screen." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="banking.css" />
+</head>
+<body>
+
+    <div class="phone-wrap">
+        <div class="phone">
+
+            <div class="status-bar">
+                <span class="time">9:41</span>
+                <div class="status-icons">
+                    <i class="fas fa-signal"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-battery-full"></i>
+                </div>
+            </div>
+
+            <header class="app-header">
+                <div class="user-greeting">
+                    <span class="greeting-small">Good morning</span>
+                    <h1 class="user-name">Alexandra</h1>
+                </div>
+                <button class="avatar-btn" aria-label="Profile">
+                    <i class="fas fa-user"></i>
+                </button>
+            </header>
+
+            <section class="balance-card">
+                <div class="balance-label">Total Balance</div>
+                <div class="balance-amount">$12,847<span class="cents">.50</span></div>
+                <div class="balance-meta">
+                    <div class="balance-change positive">
+                        <i class="fas fa-arrow-up"></i>
+                        <span>+2.4% this month</span>
+                    </div>
+                </div>
+                <div class="balance-actions">
+                    <button class="action-btn"><i class="fas fa-paper-plane"></i><span>Send</span></button>
+                    <button class="action-btn"><i class="fas fa-arrow-down"></i><span>Request</span></button>
+                    <button class="action-btn"><i class="fas fa-plus"></i><span>Top up</span></button>
+                </div>
+            </section>
+
+            <section class="spending-section">
+                <div class="section-title-row">
+                    <h2>Spending</h2>
+                    <a href="#" class="see-all">See all</a>
+                </div>
+                <div class="spending-chart">
+                    <div class="chart-bars">
+                        <div class="bar" style="height: 45%"></div>
+                        <div class="bar" style="height: 70%"></div>
+                        <div class="bar active" style="height: 90%"></div>
+                        <div class="bar" style="height: 55%"></div>
+                        <div class="bar" style="height: 35%"></div>
+                        <div class="bar" style="height: 60%"></div>
+                        <div class="bar" style="height: 40%"></div>
+                    </div>
+                    <div class="chart-labels">
+                        <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="goals-section">
+                <div class="section-title-row">
+                    <h2>Goals</h2>
+                    <a href="#" class="see-all">See all</a>
+                </div>
+                <div class="goal-card">
+                    <div class="goal-info">
+                        <div class="goal-icon"><i class="fas fa-plane"></i></div>
+                        <div>
+                            <div class="goal-name">Vacation to Japan</div>
+                            <div class="goal-progress-text">$1,200 of $3,000</div>
+                        </div>
+                    </div>
+                    <div class="goal-progress-bar">
+                        <div class="goal-progress-fill" style="width: 40%"></div>
+                    </div>
+                </div>
+                <div class="goal-card">
+                    <div class="goal-info">
+                        <div class="goal-icon"><i class="fas fa-laptop"></i></div>
+                        <div>
+                            <div class="goal-name">New MacBook</div>
+                            <div class="goal-progress-text">$800 of $2,000</div>
+                        </div>
+                    </div>
+                    <div class="goal-progress-bar">
+                        <div class="goal-progress-fill" style="width: 40%"></div>
+                    </div>
+                </div>
+            </section>
+
+            <nav class="bottom-nav" aria-label="App navigation">
+                <button class="nav-btn active" aria-label="Home"><i class="fas fa-home"></i></button>
+                <button class="nav-btn" aria-label="Stats"><i class="fas fa-chart-pie"></i></button>
+                <button class="nav-btn" aria-label="Goals"><i class="fas fa-bullseye"></i></button>
+                <button class="nav-btn" aria-label="Profile"><i class="fas fa-user"></i></button>
+            </nav>
+
+        </div>
+    </div>
+
+    <!-- ⚠️ ВОТ ЗДЕСЬ МОЖЕТ БЫТЬ ПРОБЛЕМА -->
+    <a href="../../work-detail-banking.html" class="back-btn">
+        <i class="fas fa-arrow-left"></i>
+        <span>Back to case study</span>
+    </a>
+
+    <script src="banking.js"></script>
+</body>
+</html>
